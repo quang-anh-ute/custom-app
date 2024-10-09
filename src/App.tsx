@@ -1,8 +1,9 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import logo from './logo.svg';
 import Login from './layout/Signin';
 import Signup from './layout/Signup';
+import Cnt from './layout/ContentMn';
+import CardMn from './layout/ProductList';
 import './App.css';
 
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='login' element={<Login/>} />
         <Route path='register' element={<Signup/>} />
+        <Route path='product' element={<CardMn/>} />
       </Routes>
 
       
