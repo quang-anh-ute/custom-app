@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Login from './layout/Signin';
 import Signup from './layout/Signup';
-import Cnt from './layout/ContentMn';
 import CardMn from './layout/ProductList';
 import './App.css';
 
