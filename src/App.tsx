@@ -1,28 +1,24 @@
-import React from 'react';
+import React from "react";
 import { Route, Routes } from "react-router-dom";
-import logo from './logo.svg';
-import Login from './layout/Signin';
-import Signup from './layout/Signup';
-import './App.css';
-
+import logo from "./logo.svg";
+import Login from "./layout/Signin";
+import Signup from "./layout/Signup";
+import "./App.css";
+import GrapesEditor from "./layout/Editor";
 
 function App() {
   return (
     <div>
-      
       <Routes>
-        <Route path='login' element={<Login/>} />
-        <Route path='register' element={<Signup/>} />
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Signup />} />
+        <Route path="editor" element={<GrapesEditor />} />
       </Routes>
-
-      
     </div>
   );
 }
 
 export default App;
-
-
 
 // import React, { useState, useEffect } from "react";
 // import GjsEditor, {
